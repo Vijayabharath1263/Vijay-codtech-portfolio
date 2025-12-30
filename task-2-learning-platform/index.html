@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="login" id="loginSection">
+    <h2>Student Login</h2>
+    <input type="text" id="username" placeholder="Enter your name">
+    <button onclick="login()">Login</button>
+  </div>
+
+  <div class="platform" id="platformSection">
+    <h1>Welcome, <span id="studentName"></span></h1>
+
+    <h2>Lesson 1: HTML Basics</h2>
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/qz0aGYrrlhU"
+      allowfullscreen>
+    </iframe>
+
+    <h2>Quick Quiz</h2>
+    <p>What does HTML stand for?</p>
+    <button onclick="checkAnswer(true)">Hyper Text Markup Language</button>
+    <button onclick="checkAnswer(false)">High Text Machine Language</button>
+
+    <p id="result"></p>
+
+    <h3>Your Progress</h3>
+    <p id="progress">Not completed</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
