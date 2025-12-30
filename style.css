@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #0f172a;
+  color: white;
+}
+
+.hero {
+  height: 100vh;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  margin-top: 10px;
+  color: #38bdf8;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #38bdf8;
+  color: black;
+  cursor: pointer;
+}
+
+.about,
+.projects {
+  padding: 60px 40px;
+}
+
+.projects .project {
+  background-color: #1e293b;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #020617;
+}
